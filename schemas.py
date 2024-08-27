@@ -33,10 +33,6 @@ class BookCreate(BookBase):
     author_id: int
 
 
-class BookForAuthor(BookBase):
-    id: int
-
-
 class Book(BookBase):
     id: int
     author: AuthorBase
